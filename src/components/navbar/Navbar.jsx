@@ -9,9 +9,9 @@ const Navbar = () => {
   const links = [
     { id: 1, path: "/", link: "home" },
     { id: 2, path: "/about", link: "about" },
-    { id: 3, path: "/blog", link: "blog" },
-    { id: 4, path: "/link", link: "link" },
-    { id: 5, path: "/contact", link: "contact" },
+    { id: 3, path: "/blog", link: "blog" }, 
+    { id: 4, path: "/contact", link: "contact" },
+    { id: 5, path: "/logout", link: "Logout" },
   ];
 
   return (

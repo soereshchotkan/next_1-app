@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen p-5 bg-gray-100">
+    <div className="md:w-[1000px] m-auto flex flex-col md:flex-row items-center justify-center p-5 mt-[100px] bg-gray-100">
       {/* Left side with a large image */}
       <div className="">
         <Image
-          src="/canada.jpg" // Replace with your large image path
+          src="/blog.jpg" // Replace with your large image path
           alt="Large Image"
           width={500} // Adjust width accordingly
-          height={600} // Adjust height accordingly
+          height={500} // Adjust height accordingly
           layout="responsive"
           className="object-cover"
         />
@@ -21,7 +21,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">Title</h1>
         <div className="flex items-center mb-4">
           <Image
-            src="/klein.png" // Replace with your author image path
+            src="/vlinder.jpg" // Replace with your author image path
             alt="Author"
             width={50}
             height={50}
